@@ -23,7 +23,7 @@ void main() {
     // Base colour
     vec3 color = vec3(0.281,0.279,0.675);
 
-    color = add_circle(color, vec3(0.281,0.779,0.675) * circle_mask(vec2(0.5, 0.3), 0.2))
+    color = add_circle(color, vec3(0.281,0.779,0.675) * circle_mask(vec2(0.5, 0.3), 0.2));
     
     gl_FragColor = vec4(color,0.856);
 }
